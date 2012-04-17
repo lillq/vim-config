@@ -12,7 +12,7 @@ runtime macros/matchit.vim        " Load the matchit plugin.
 " Colors
 set t_Co=256
 " Replace with your favorite colorscheme
-" colorscheme zenburn
+colorscheme ir_black
 
 set showcmd                       " Display incomplete commands.
 set showmode                      " Display the mode you're in.
@@ -70,6 +70,7 @@ set autoindent
 
 " GUI options
 set guioptions-=T                 " Git rid of useless toolbar
+set gfn=Monaco:h13
 
 function! <SID>StripTrailingWhitespace()
     " Preparation: save last search, and cursor position.
