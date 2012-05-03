@@ -104,3 +104,10 @@ nnoremap <right> <nop>
 " Keep visual selection after indenting
 vnoremap > >gv
 vnoremap < <gv
+
+" Searching
+map <leader>aa :Ack!<space>
+map <leader>aj :Ack!<space>--type=js<space>
+map <leader>ar :Ack!<space>--type=ruby<space>
+" Highlight current word in all buffers and then ack for it in all files
+map <leader>aw *#:Ack!<space><cword><cr>
