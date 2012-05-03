@@ -12,7 +12,8 @@ runtime macros/matchit.vim        " Load the matchit plugin.
 " Colors
 set t_Co=256
 " Replace with your favorite colorscheme
-colorscheme ir_black
+" let g:zenburn_high_Contrast = 1
+colorscheme ir_black2
 
 set showcmd                       " Display incomplete commands.
 set showmode                      " Display the mode you're in.
