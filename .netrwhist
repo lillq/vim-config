@@ -1,7 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/Users/lillq/Dropbox/work/apps/2dev'
 let g:netrw_dirhist_2='/Users/lillq/Dropbox/work/apps/2dev/autotest'
 let g:netrw_dirhist_3='/Users/lillq/Dropbox/work/apps/2dev'
 let g:netrw_dirhist_4='/Users/lillq/Dropbox/work/apps/2dev/app'
 let g:netrw_dirhist_5='/Users/lillq/Dropbox/work/apps/2dev/app/controllers'
+let g:netrw_dirhist_6='/Users/lillq/Dropbox/work/apps/2dev'
+let g:netrw_dirhist_7='/Users/lillq/Dropbox/work/apps/2dev/app'
+let g:netrw_dirhist_8='/Users/lillq/Dropbox/work/apps/2dev/app/controllers'
+let g:netrw_dirhist_9='/Users/lillq/Dropbox/work/apps/2dev/app'
