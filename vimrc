@@ -13,7 +13,7 @@ runtime macros/matchit.vim        " Load the matchit plugin.
 set t_Co=256
 " Replace with your favorite colorscheme
 " let g:zenburn_high_Contrast = 1
-colorscheme ir_black2
+colorscheme vividchalk
 
 set showcmd                       " Display incomplete commands.
 set showmode                      " Display the mode you're in.
@@ -71,7 +71,7 @@ set autoindent
 
 " GUI options
 set guioptions-=T                 " Git rid of useless toolbar
-set gfn=Monaco:h13
+set gfn=Monaco:h12
 
 function! <SID>StripTrailingWhitespace()
     " Preparation: save last search, and cursor position.
@@ -97,10 +97,10 @@ autocmd BufWinLeave * call clearmatches()
 
 
 " Arrow keys? We don't need no stinkin' arrow keys
-nnoremap <up> <nop>
-nnoremap <down> <nop>
-nnoremap <left> <nop>
-nnoremap <right> <nop>
+" nnoremap <up> <nop>
+" nnoremap <down> <nop>
+" nnoremap <left> <nop>
+" nnoremap <right> <nop>
 
 " Keep visual selection after indenting
 vnoremap > >gv
