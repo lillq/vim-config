@@ -13,7 +13,7 @@ runtime macros/matchit.vim        " Load the matchit plugin.
 set t_Co=256
 " Replace with your favorite colorscheme
 " let g:zenburn_high_Contrast = 1
-colorscheme vividchalk
+color jellybeans
 
 set showcmd                       " Display incomplete commands.
 set showmode                      " Display the mode you're in.
@@ -55,7 +55,7 @@ set listchars=tab:▸\ ,            " Show tabs with an arrow
 
 set nobackup                      " Don't make a backup before overwriting a file.
 set nowritebackup                 " And again.
-set directory=$HOME/.vim/tmp/,.   " Keep swap files in one location
+set noswapfile
 
 set tabstop=2                     " Global tab width.
 set shiftwidth=2                  " And again, related.
@@ -112,3 +112,12 @@ map <leader>aj :Ack!<space>--type=js<space>
 map <leader>ar :Ack!<space>--type=ruby<space>
 " Highlight current word in all buffers and then ack for it in all files
 map <leader>aw *#:Ack!<space><cword><cr>
+
+" modifying the syntax for regex's
+noremap ;; :%s:::g<Left><Left><Left>
+noremap ;' :%s:::cg<Left><Left><Left><Left>
+cmap ;\ \(\)<Left><Left>
+
+" ruby syntax
+map <leader>rs :setf<space>ruby<cr>
+set fu
